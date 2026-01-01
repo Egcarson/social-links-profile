@@ -27,7 +27,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: hsl(0, 0%, 12%);
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,8 +35,8 @@ body {
   height: 100vh;
 }
 
-.social-card {
-  background-color: hsl(0, 0%, 15%);
+.container {
+  background-color: hsl(0, 0%, 12%);
   color: hsl(0, 0%, 100%);
   border-radius: 15px;
   padding: 20px;
@@ -48,44 +48,44 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.social-card__header {
+.container__header {
   margin-top: 8px;
 }
-.social-card__profile-picture {
+.container__profile-picture {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
-.social-card__name {
+.container__name {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.social-card__location {
+.container__location {
   font-size: 0.8rem;
   color: hsl(75, 94%, 57%);
   margin-bottom: 25px;
   font-weight: 600;
 }
 
-.social-card__bio {
+.container__bio {
   font-size: 0.75rem;
   color: hsl(0, 0%, 80%);
   margin-bottom: 20px;
   font-weight: 400;
 }
 
-.social-card__links {
+.container__links {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
 }
-.social-card__link {
+.container__link {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 20%);
@@ -97,7 +97,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.social-card__link:hover {
+.container__link:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 12%);
 }
